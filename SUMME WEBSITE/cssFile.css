@@ -20,7 +20,9 @@ header, section, footer
 	-webkit-box-flex: 1;	
 	
 }
-
+a{
+	text-decoration: none;
+}
 #top_head p
 {
 	font-size: 30px;
@@ -117,6 +119,13 @@ input#uploadBtn
 	width: 70px;
 	margin-left: 20px;
 	margin-top: 70px;
+	background: #dd4a17;
+}
+#chooseFile{
+	height: 30px;
+	width: 75px;
+	margin-left: 230px;
+	margin-top: 30px;
 	background: #dd4a17;
 }
 
